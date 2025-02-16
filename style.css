@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-900: hsl(0, 0%, 7%);
+    --p-font-size: 15px;
+    --p-font-weight: 500;
+    --h-font-weight: 800;
+}
+
+html, body{
+    width: 100vw;
+    height: 100%;
+    background-color: var(--yellow);
+}
+
+main{
+    height: calc(100vh - 20px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-preview-card{
+    width: 320px;
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 14px;
+    font-family: "Figtree" , serif;
+    font-weight: var(--p-font-weight);
+    font-size: var(--p-font-size);
+    border: 1px solid black;
+    box-shadow:  4px 4px 0px black;
+    color: var(--gray-900);
+    cursor: pointer;
+}
+
+.img-container  img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px ;
+}
+
+.tag{
+    display: inline-block;
+    margin: 12px 0px 8px 0px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    font-weight: var(--h-font-weight);
+}
+
+.p-details{
+    margin-bottom: 12px;
+}
+
+.blog-details h1{
+    font-size: 20px;
+    font-weight: var(--h-font-weight);
+    margin-bottom: 12px;
+}
+
+.blog-details p{
+    color: var(--gray-500);
+
+}
+
+.avatar-container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+    font-weight: var(--h-font-weight);
+}
+
+.blog-preview-card:hover .blog-details h1{
+    color: var(--yellow);
+}
+
+.blog-preview-card:focus{
+    outline: 2px dashed black;
+    outline-offset: 10px;
+}
+
+.avatar-container img{
+    height: 30px;
+    width: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
