@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo for the Solution](https://github.com/FA23BCS233/blog-preview-card.git)
-- Live Site URL: [LiveSite](https://your-live-site-url.com)
+- Live Site URL: [https://your-live-site-url.com](https://fa23bcs233.github.io/blog-preview-card/))
 
 ## My process
 
